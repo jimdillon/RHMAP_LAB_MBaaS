@@ -9,13 +9,13 @@ module.exports = function(grunt) {
       js: {
         files: ['gruntfile.js', 'application.js', 'lib/**/*.js', 'test/**/*.js'],
         options: {
-          livereload: true
+          livereload: 30000
         }
       },
       html: {
         files: ['public/views/**', 'app/views/**'],
         options: {
-          livereload: true
+          livereload: 300000
         }
       }
     },
@@ -47,6 +47,9 @@ module.exports = function(grunt) {
       // environment variables - see https://github.com/jsoverson/grunt-env for more information
       local: {
         FH_USE_LOCAL_DB: true,
+        FH_PORT: 8002,
+        DARK_SKY_KEY: '8eaee9bd44e19026217d676b82847a53',
+        GOOGLE_GEOCODE_KEY: 'AIzaSyAODZKRyqnv7fOsiJRUyTg5nTAsz1obNtQ',
         FH_SERVICE_MAP: function() {
           /*
            * Define the mappings for your services here - for local development.
