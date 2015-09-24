@@ -48,8 +48,8 @@ module.exports = function(grunt) {
       local: {
         FH_USE_LOCAL_DB: true,
         FH_PORT: 8002,
-        DARK_SKY_KEY: '8eaee9bd44e19026217d676b82847a53',
-        GOOGLE_GEOCODE_KEY: 'AIzaSyAODZKRyqnv7fOsiJRUyTg5nTAsz1obNtQ',
+        DARK_SKY_KEY: 'Your Dark Sky Key Here',
+        GOOGLE_GEOCODE_KEY: 'Your Google Geocode Key Here',
         FH_SERVICE_MAP: function() {
           /*
            * Define the mappings for your services here - for local development.
