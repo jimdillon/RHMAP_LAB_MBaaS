@@ -1,4 +1,4 @@
-# Red Hat Mobile Lab Cloud App
+# Red Hat Mobile Lab MBaaS
 
 We'll take a new default MBaaS, connect to google geocode API to swap city and start
 input for latitude and longitude, which we will use to call the dark sky weather Service
@@ -15,7 +15,7 @@ To do this we'll change this
 ```Javascript
 app.use('/hello', require('./lib/hello.js')());
 ```
-To this
+To this _(make sure you remove the extra parenthesis after require('./lib'))_
 ```Javascript
 app.use('/weather-service', require('./lib'));
 ```
