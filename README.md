@@ -178,16 +178,7 @@ http://127.0.0.1:8002/weather-service/temperature/Richmond/VA
 
 ### Now let's head back to our Cloud App and get it working with our new MBaaS.
 
-### Temperature MBaaS API
-
-### /weather-service/temperature/:city/:state [/weather-service/temperature/:city/:state]
+### Weather Service MBaaS API
 
 Temperature endpoint
 ## /weather-service/temperature/:city/:state [GET]
-
-+ Request (application/json)
-    + Body
-            {}
-+ Response 200 (application/json)
-    + Body
-            {}
